@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Choose a story template!</h2>
+    <form action = "/form">
+        <select name = 'story_type'>
+                <option value = "" disabled selected hidden>Choose Story</option>
+            {% for story in stories %}
+                <option>{{story.story_type}}</option>
+            {% endfor %}
+        </select>
+        <button>Next</button>
+    </form>
+{% endblock %}

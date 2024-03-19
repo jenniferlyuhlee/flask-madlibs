@@ -1,0 +1,19 @@
+/* body{
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+input{
+    display:block;
+}
+
+select:invalid{
+    color: darkgray;
+} */
